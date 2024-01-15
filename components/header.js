@@ -11,7 +11,7 @@ export default function Header(){
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
                             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                         </svg>
-                        <span className="ml-3 text-xl">Next.JS 포트폴리오</span>
+                        <span className="ml-3 text-xl">제갈민혁 Fornt-End 포트폴리오</span>
                     </div>
                 </Link>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
@@ -23,9 +23,12 @@ export default function Header(){
                         <div className="mr-5 hover:text-gray-900">프로젝트</div>
                     </Link>
                 
-                    <Link href="https://open.kakao.com/o/sitad52f">
+                    <Link href="https://open.kakao.com/o/sitad52f" target='_blank'>
                         <div className="mr-5 hover:text-gray-900">연락하기</div>
                     </Link>
+                    {/* <Link>
+                        <div className=""></div>
+                    </Link> */}
                 </nav>
 
                 {/* 다크 모드 토글 버튼  */}

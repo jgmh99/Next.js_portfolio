@@ -29,9 +29,10 @@ p{
             hover:shadow-lg
             dark:border-gray-200/50
             dark:hover:shadow-gray-400/40
-
-
             hover:text-blue-600
-
-
+            
+}
+.project-card-image{
+    width: 100% !important;
+    height: 40% !important;
 }
