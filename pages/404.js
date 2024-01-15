@@ -26,21 +26,21 @@ export default function PageNotFound() {
   return (
     
     <div>
-        <Header/>
+        <Header style={{height:"5vh"}}/>
         <Lottie
             loop
             animationData={lottieJson404}
             play
-            style={{ height: '95vh' }}
+            style={{ height: "85vh" }}
         />
-            <div className="flex justify-center" style={{height:'4vh'}}>
+            <div className="flex justify-center" style={{height:'5vh'}}>
                 <Link href="/">
                     <button className="btn-project">
                         홈으로 돌아가기
                     </button>
                 </Link>
             </div>
-        <Footer/>
+        <Footer style={{height:"5vh"}}/>
     </div>
   );
 }
