@@ -8,7 +8,7 @@ export default function Hero(){
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                     안녕하세요!
                 </h1>
-                <p className='sm:text-4xl mb-2 font-small text-gray-600'>
+                <p className='sm:text-4xl mb-2 font-small text-gray-600 font-bold' style={{fontSize:"30px"}}>
                     개발과 지식의 성장을 즐기는 개발자 제갈민혁 입니다.
                 </p>
 
