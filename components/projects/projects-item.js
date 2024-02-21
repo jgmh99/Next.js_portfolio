@@ -31,7 +31,7 @@ export default function ProjectItem({data}){
     
     return(
         <div className="project-card" >
-            <Image
+            {/* <Image
                 className="rounded-t-xl project-card-image"
                 src={imgSrc}
                 alt="cover image"
@@ -41,7 +41,7 @@ export default function ProjectItem({data}){
                 objectFit="cover"
                 quality={100}
                 //next.js에서 이미지 같은거 끌어올때는 도메인 설정 되어 있어야함 -> next.config.js 가서 images 있는거 참고하세요
-            />
+            /> */}
           
             <div className="p-4 flex flex-col ">
                 <h1 className="text-2xl font-bold">{Title}</h1>
